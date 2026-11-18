@@ -23,7 +23,13 @@ Coming next: OpenFOAM as a second solver, more mesh formats, guided CFD lessons 
 2. Run it. AViSta installs for your user only and does not need administrator rights. The SU2 solver comes with it, so nothing else needs to be installed.
 3. **Windows may warn that it "protected your PC"**, because preview builds are not signed yet. Click **More info**, then **Run anyway**.
 
-A Linux version will follow.
+## Download and run (Linux, 64-bit)
+
+1. Open [Releases](../../releases) and download the `.AppImage` file. It is the whole program in one file, SU2 included, and needs no administrator password. It runs on Ubuntu 22.04 or newer and on other distributions from 2022 on.
+2. In your file manager, right-click it → **Properties** → **Permissions**, and tick **Allow executing file as program**.
+3. Double-click it.
+
+On Linux, SU2 runs on one processor core in this preview; several cores are coming next.
 
 ## Reporting a problem
 
